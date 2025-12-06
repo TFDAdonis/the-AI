@@ -850,4 +850,4 @@ if not st.session_state.messages:
             st.rerun()
         if st.button("Philosophical question", use_container_width=True):
             st.session_state.messages.append({"role": "user", "content": "What is the meaning of consciousness according to different philosophical traditions?"})
-            st.rerun()     
+            st.rerun()
